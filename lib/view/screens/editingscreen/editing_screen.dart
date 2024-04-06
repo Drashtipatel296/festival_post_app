@@ -39,7 +39,10 @@ class _EditScreenState extends State<EditScreen> {
             child: InkWell(
               onTap: () {
                 setState(() {
-                  postImageIndex = 0;
+                  backgroundIndex = 0;
+                  colorIndex = 0;
+                  colorIndex1 = 0;
+                  fontSize = 0;
                   txtName = TextEditingController(text: '');
                 });
               },
